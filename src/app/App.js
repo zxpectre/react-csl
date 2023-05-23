@@ -24,7 +24,16 @@ function App() {
   return (
     <div className="App centered">
       <header className="App-header">
-        <h1>Demo App</h1>
+        
+        
+        <a
+          className="App-link"
+          href="https://github.com/Emurgo/cardano-serialization-lib/issues/623"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h1>Replicating "RuntimeError: unreachable executed" error</h1>
+        </a>
         <h3>React + 
         <a
           className="App-link"
