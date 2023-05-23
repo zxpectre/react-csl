@@ -1,0 +1,69 @@
+{
+  "name": "react-csl",
+  "description": "Minimal React app boilerplate with cardano-serialization-lib and typescript support out of the box",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "@craco/craco": "^6.1.2",
+    "@emurgo/cardano-message-signing-asmjs": "^1.0.1",
+    "@emurgo/cardano-serialization-lib-browser": "^11.3.1",
+    "@emurgo/cip14-js": "^3.0.1",
+    "@emurgo/cip4-js": "^1.0.7",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/react-dom": "^16.9.13",
+    "axios": "^0.21.1",
+    "big-number-input": "^1.0.3",
+    "bip39": "^3.0.4",
+    "crypto-js": "^4.1.1",
+    "node-sass": "^6.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.0.1"
+  },
+  "scripts": {
+    "start": "NODE_OPTIONS=\"--max-old-space-size=8192\" REACT_APP_BUILD_TAG=development react-app-rewired start",
+    "build": "NODE_OPTIONS=\"--max-old-space-size=8192\" REACT_APP_BUILD_TAG=development react-app-rewired build",
+    "start-preprod": "NODE_OPTIONS=\"--max-old-space-size=8192\" REACT_APP_BUILD_TAG=development REACT_APP_NETWORK_TAG=preprod react-app-rewired start",
+    "build-preprod": "NODE_OPTIONS=\"--max-old-space-size=8192\" REACT_APP_BUILD_TAG=development REACT_APP_NETWORK_TAG=preprod react-app-rewired build",
+    "start-mainnet": "NODE_OPTIONS=\"--max-old-space-size=8192\" REACT_APP_BUILD_TAG=development REACT_APP_NETWORK_TAG=mainnet react-app-rewired start",
+    "build-mainnet": "NODE_OPTIONS=\"--max-old-space-size=8192\" REACT_APP_BUILD_TAG=development REACT_APP_NETWORK_TAG=mainnet react-app-rewired build",
+    "test": "NODE_OPTIONS=\"--max-old-space-size=8192\" react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "serve": "serve -p 3000 -s build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/node": "^12.20.17",
+    "@types/react": "^16.14.11",
+    "@types/react-router-dom": "^5.1.7",
+    "customize-cra": "^0.9.1",
+    "react-app-rewired": "^2.1.5",
+    "react-scripts": "^4.0.3",
+    "serve": "^12.0.0",
+    "thread-loader": "^2.1.3",
+    "threads-plugin": "^1.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.6.4",
+    "wasm-loader": "^1.3.0",
+    "worker-loader": "^2.0.0",
+    "workerize-loader": "^1.2.1"
+  }
+}

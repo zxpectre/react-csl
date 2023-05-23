@@ -1,0 +1,10 @@
+{
+    "ts-node": {
+        "baseUrl": ".",
+        "compilerOptions": {
+            "module": "commonjs"
+        },
+        "moduleResolution": "node",
+        "exclude":["node_modules"]
+    }
+}
