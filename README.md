@@ -64,4 +64,6 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+To learn more about the used Cardano library, check out Emurgo's [Cardano Serialization Lib](https://github.com/Emurgo/cardano-serialization-lib).
+
 Made with ❤️ by  [GameChanger Finance](https://gamechanger.finance/).
